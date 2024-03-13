@@ -1,5 +1,4 @@
 import { Router } from '../router'
-
 import { Navigation } from '../components'
 
 import '../styles/App.css'
