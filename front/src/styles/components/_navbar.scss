@@ -6,6 +6,9 @@
 
   display: flex;
   gap: 10px;
-  // justify-content: space-between;
   align-items: center;
+  
+  & .navbar_title{
+    flex: 1;
+  }
 }

@@ -5,9 +5,9 @@ export function Navigation() {
 	return (
 		<nav className="navbar">
 			<Burger />
-			<Link to="/">
-				<h1>UnNetConurbano</h1>
-			</Link>
+			<h1 className="navbar_title">
+				<Link to="/">UnNetConurbano</Link>
+			</h1>
 			<button>
 				<Link to="login">Iniciar Sesion</Link>
 			</button>
