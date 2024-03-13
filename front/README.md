@@ -1,0 +1,3 @@
+# Ensayo de Proyecto para Universidades del Conurbano Bonaerense
+
+Proyecto iniciado aun sin funcionalidades, apenas una maquetacion...
