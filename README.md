@@ -3,8 +3,8 @@
 ### Estructura
 
 - app:
-- App.jsx se ocupa del layout de la aplicacion
-- Core.jsx enrutador y contexto de la aplicacion
+  - App.jsx se ocupa del layout de la aplicacion
+  - Core.jsx enrutador y contexto de la aplicacion
 - components:
   - componentes de la aplicacion generales
 - pages:
