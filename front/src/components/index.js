@@ -1,2 +1,2 @@
-export * from './burgerMenu/Burger'
+export * from './menu'
 export * from './navigation/Navigation'
