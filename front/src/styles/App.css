@@ -351,7 +351,7 @@ template {
 }
 
 .menu .enlaces a:hover {
-  background-color: #ddd;
+  background-color: #f1f1f1;
   color: #75aadb;
 }
 
@@ -367,6 +367,9 @@ template {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+.navbar .navbar_title {
+  flex: 1;
 }
 
 .burger {
