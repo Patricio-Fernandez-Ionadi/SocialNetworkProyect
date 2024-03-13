@@ -1,28 +1,15 @@
 .menu{
-  /* -------- CENTRADO DEL CONTENIDO -------- */
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  /* -------- Posicionamos los Elementos -------- */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $col-prim;
+  height: 100vh;
+  width: 200px;
+  background-color: green;
+  position: absolute;
+  transition: all .2s ease;
+  left: -200px;
+  &.opened {
+    left: 0;
+  }
 }
-.menu .logo{
-  display: inline-block;
-  margin-left: 1em;
-}
-.menu .logo img{
-  vertical-align: top;
-  height: 40px;
-}
-.menu .btn-menu{
-  display: none;
-  color: $white;
-  text-decoration: none;
-  font-size: 2em;
-}
+
 .menu .enlaces{
   display: inline-block;
   text-align: right;
