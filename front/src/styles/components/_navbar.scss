@@ -1,0 +1,11 @@
+.navbar{
+  width: $full;
+  height: 60px;
+  padding: 0 10px;
+  background-color: $col-prim;
+
+  display: flex;
+  gap: 10px;
+  // justify-content: space-between;
+  align-items: center;
+}

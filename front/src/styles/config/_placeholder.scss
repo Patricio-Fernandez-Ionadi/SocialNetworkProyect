@@ -1,0 +1,45 @@
+%flex-r
+{
+	display: flex;
+	flex-direction: row;
+}
+
+%flex-c
+{
+	display: flex;
+	flex-direction: column;
+}
+
+%flex-center
+{
+	justify-content: center;
+	align-items: center;
+}
+
+%centro-absoluto
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+%ejemplos
+{
+	width: 90%;
+	margin: 20px auto 20px;
+	padding: 3%;
+
+    background-color: $col-oscuro;
+
+    color: green;
+
+    font-family: monospace;
+    font-size: $fsize-normal;
+
+    border: 2px solid #777;
+
+    box-shadow: 5px 5px 10px 0 #000;
+    box-sizing: border-box;
+}

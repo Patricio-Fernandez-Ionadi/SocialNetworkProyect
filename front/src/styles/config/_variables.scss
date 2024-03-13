@@ -1,0 +1,41 @@
+// -----------------COLOR-----------------
+$white: #fff;			  //	blanco        |
+$col-claro: #ddd;		// 	no tan blanco |
+$col-medium: #777;		//  gris          |
+$col-oscuro: #222;		// 	muy oscuro    |
+$black: #000;			  // 	negro         |
+// ---------------------------------------
+$col-prim: #75aadb;
+$col-sec: #fcbf49;
+$col-header: $col-prim;
+//________________________________________//
+
+// -----------------TAMAÑO---------------
+$full: 100%;													//|
+$vh: 100vh;														//|
+$pad-normal: 5%;        							//|
+// --------------------------------------
+//________________________________________//
+
+// -----------------FUENTE---------------
+$fsize-small: 8px;									//|
+$fsize-normal: 16px;								//|
+$fsize-large: 24px;									//|
+// --------------------------------------
+$font-title:'Yanone Kaffeesatz', sans-serif;
+//________________________________________//
+
+
+// ----------------QUERY---------------
+$smartphone: 480px;									//|
+$tablet: 728px;											//|
+$desktop: 1024px;										//|
+// ------------------------------------
+//________________________________________//
+
+// ----------------COMPONENTS---------------
+$link: #ffd369;			// amarillo pastel
+$link-hover: #fff;		// blanco
+$sub-link: #49beb7;		// celeste opaco
+
+$col-btn: #fff;			// blanco

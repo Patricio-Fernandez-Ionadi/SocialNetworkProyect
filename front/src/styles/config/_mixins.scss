@@ -1,0 +1,24 @@
+@mixin whmp($width, $height, $margin, $padding)
+{
+	width: $width;
+	height: $height;
+	margin: $margin;
+	padding: $padding;
+}
+
+@mixin shadow-in($xedg, $yedg, $bl-size, $shadow-size, $shadow-col, $shadow-transp)
+{
+	box-shadow: #{$xedg}px #{$yedg}px #{$bl-size}px #{$shadow-size}px rgba($shadow-col, $shadow-transp) inset;
+}
+
+@mixin shadow-out($xedg, $yedg, $bl-size, $shadow-size, $shadow-col, $shadow-transp)
+{
+	box-shadow: #{$xedg}px #{$yedg}px #{$bl-size}px #{$shadow-size}px rgba($shadow-col, $shadow-transp);
+}
+
+@mixin shadow-in-out($xedg-in, $yedg-in, $bl-size-in, $shadow-size-in, $shadow-col-in, 
+					$xedg-out, $yedg-out, $bl-size-out, $shadow-size-out, $shadow-col-out)
+{
+	box-shadow: #{$xedg-in}px #{$yedg-in}px #{$bl-size-in}em #{$shadow-size-in}em $shadow-col-in inset,
+				#{$xedg-out}px #{$yedg-out}px #{$bl-size-out}em #{$shadow-size-out}em $shadow-col-out;
+}

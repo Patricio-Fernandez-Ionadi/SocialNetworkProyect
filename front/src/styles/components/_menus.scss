@@ -1,0 +1,45 @@
+.menu{
+  /* -------- CENTRADO DEL CONTENIDO -------- */
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  /* -------- Posicionamos los Elementos -------- */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $col-prim;
+}
+.menu .logo{
+  display: inline-block;
+  margin-left: 1em;
+}
+.menu .logo img{
+  vertical-align: top;
+  height: 40px;
+}
+.menu .btn-menu{
+  display: none;
+  color: $white;
+  text-decoration: none;
+  font-size: 2em;
+}
+.menu .enlaces{
+  display: inline-block;
+  text-align: right;
+}
+.menu .enlaces a{
+  color: $white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+  transition: all .3s ease;
+}
+.menu .enlaces a:hover{
+  background-color: $col-claro;
+  color: $col-header;
+}
+.menu .enlaces i{
+  margin-right: 5px;
+}

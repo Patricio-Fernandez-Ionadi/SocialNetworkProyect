@@ -1,0 +1,20 @@
+.main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: $white;
+    @include shadow-out(0, 5, 15, 2, $black, 0.5)
+}
+.main article h1{
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+.main article hr{
+    margin-bottom: 1em;
+    border: none;
+    height: 2px;
+    background-color: $col-header;
+}
+.main article p{
+    margin-bottom: 1em;
+}
