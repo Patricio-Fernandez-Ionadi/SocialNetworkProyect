@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -422,6 +423,61 @@ template {
 .icon-menu__bar--left-arrow::after {
   top: 0.37em;
   transform: rotate(35deg);
+}
+
+.login_container {
+  width: 250px;
+  border: 1px solid #87c3fc;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #75aadb;
+}
+
+.login_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login_inputs input {
+  width: 230px;
+  padding: 5px;
+}
+
+.login_inputs input:focus {
+  outline: none;
+}
+
+.login_submit {
+  height: 40px;
+  width: 100%;
+  background-color: #87c3fc;
+  border: none;
+  margin: 10px 0;
+}
+
+.login_submit:hover {
+  background-color: #fcbf49;
+}
+
+.login_helpers {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap:  5px;
 }
 
 .header {

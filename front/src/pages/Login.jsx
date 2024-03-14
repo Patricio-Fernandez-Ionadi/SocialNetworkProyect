@@ -23,25 +23,36 @@ export function LoginForm() {
 
 	return (
 		<>
-			<form action="POST" onSubmit={handleLogin}>
-				<div>
-					<label htmlFor="user">Usuario</label>
-					<input type="text" id="user" onChange={handleUser} value={user} />
+			<div className="login_container">
+				<h2>Bienvenido</h2>
+				<form action="POST" onSubmit={handleLogin} className="login_form">
+					<div className="login_inputs">
+						<div>
+							<input
+								type="text"
+								onChange={handleUser}
+								value={user}
+								placeholder="Usuario"
+							/>
+						</div>
+						<div>
+							<input
+								type="password"
+								onChange={handlePw}
+								value={pw}
+								placeholder="Contraseña"
+							/>
+						</div>
+					</div>
+					<button className="login_submit">Iniciar sesion</button>
+				</form>
+				{/* ------------------------------------------------------------------- */}
+				<div className="login_helpers">
+					<a href="#">¿Olvidaste la contraseña?</a>
+					<a href="#">No tengo cuenta. (Registrarme)</a>
 				</div>
-				<div>
-					<label htmlFor="password">Contraseña</label>
-					<input type="password" id="password" onChange={handlePw} value={pw} />
-				</div>
-				<div>
-					<button onClick={handleLogin}>Iniciar sesion</button>
-				</div>
-			</form>
-			{/* ------------------------------------------------------------------- */}
-			<div>
-				<a href="#">¿Olvidaste la contraseña?</a>
-				<span> - </span>
-				<a href="#">No tengo cuenta. (Registrarme)</a>
 			</div>
+			<a href="#">Volver</a>
 		</>
 	)
 }
